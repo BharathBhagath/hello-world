@@ -1,0 +1,11 @@
+pipeline {
+  agent any
+  
+  stages {
+    stage('Run Bash Script') {
+      steps {
+        sh 'hello-world/webhooks-list.sh'
+      }
+    }
+  }
+}
