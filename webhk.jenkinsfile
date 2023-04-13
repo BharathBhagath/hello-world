@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Run Bash Script') {
       steps {
-        sh 'hello-world/webhooks-list.sh'
+        sh 'https://github.com/BharathBhagath/hello-world/blob/master/webhooks-list.sh'
       }
     }
   }
