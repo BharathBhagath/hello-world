@@ -1,5 +1,5 @@
 #!/bin/bash
-
+chmod +x webhooks-list.sh
 # Set variables for the repository and GitHub API token
 REPO_OWNER=BharathBhagath
 REPO_NAME=hello-world
