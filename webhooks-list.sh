@@ -3,7 +3,7 @@
 # Set variables for the repository and GitHub API token
 REPO_OWNER=BharathBhagath
 REPO_NAME=hello-world
-GITHUB_TOKEN=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
+GITHUB_TOKEN=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
 
 # Make the API call to list webhooks
 curl -H "Authorization: token $GITHUB_TOKEN" \
